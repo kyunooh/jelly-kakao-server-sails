@@ -163,7 +163,15 @@ without necessarily having a billing card.`
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
-    // n/a
+    chatRooms: {
+      collection: 'chatRoom',
+      via: 'users'
+    },
+
+    chats: {
+      collection: 'chat',
+      via: 'writer'
+    }
 
   },
 
